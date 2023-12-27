@@ -1,0 +1,92 @@
+body {
+    /* background-color: #fd6c9e; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9F2B68	;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 50% 50% 50% 50%;
+}
+
+label {
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #DE3163;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    color: whitesmoke;
+}
+
+table td {
+    padding: 8px;
+}
+
+input[type="submit"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-bottom: 2px solid red;
+    transition: 0.5s;
+    outline: none;
+    background-color: #FF69B4;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    margin: 8px auto;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: black;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

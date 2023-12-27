@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+}
+
+h2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+    width: 320px;
+    height: 50px;
+    padding: 7px;
+    border: 5px solid gray;
+}
