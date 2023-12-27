@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+</head>
+<body>
+    <form action="/abc.php" method="POST" enctype="application/x-www-form-urlencoded" nonvalidate autocomplete="on">
+        <fieldset style="width: 80%; margin: 0 auto; border-style: none;">
+            <h1><legend>Profile</legend></h1>
+            <table>
+                <tr>
+                    <td style="vertical-align: center;">
+                        <fieldset>
+                            <legend>General Information:</legend>
+                            <table>
+                                <tr>
+                                    <td><label for="first-name"><strong>First Name:</strong></label></td>
+                                    <td><input type="text" id="first-name" name="first-name" value="Mir Md." /></td>
+                                    <td rowspan="8"><img class="profile-image" src="pp.png" alt="Profile Image" style="border: 1px solid black; width: 150px; height: 100px;"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="last-name"><strong>Last Name:</strong></label></td>
+                                    <td><input type="text" id="last-name" name="last-name" value="Kawsur" /></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Gender:</strong></td>
+                                    <td>
+                                        <input type="radio" id="male" name="gender" value="Male">
+                                        <label for="male">Male</label>
+                                        <input type="radio" id="female" name="gender" value="Female">
+                                        <label for="female">Female</label>
+                                        <!--<input type="radio" id="other" name="gender" value="Other">
+                                        <label for="other">Other</label>-->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="father-name"><strong>Father's Name:</strong></label></td>
+                                    <td><input type="text" id="father-name" name="father-name" value="XYZ" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="mother-name"><strong>Mother's Name:</strong></label></td>
+                                    <td><input type="text" id="mother-name" name="mother-name" value="ZYX" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="blood-group"><strong>Blood Group:</strong></label></td>
+                                    <td>
+                                        <input type="checkbox" id="blood-group-o+" name="blood-group" value="O+">
+                                        <label for="blood-group-o+">O+</label>
+                                        <br>
+                                        <input type="checkbox" id="blood-group-a+" name="blood-group" value="A+">
+                                        <label for="blood-group-a+">A+</label>
+                                        <!-- Add more blood group checkboxes here -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="religion"><strong>Religion:</strong></label></td>
+                                    <td>
+                                        <select id="religion" name="religion">
+                                            <option value="Muslim">Muslim</option>
+                                            <option value="Hindu">Hindu</option>
+                                            <option value="Buddhist">Buddhist</option>
+                                            <option value="Christian">Christian</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                    <td style="vertical-align: center;">
+                        <fieldset>
+                            <legend>Contact Information:</legend>
+                            <table>
+                                <tr>
+                                    <td><label for="email"><strong>Email:</strong></label></td>
+                                    <td><input type="email" id="email" name="email" value="MirMdKawsur0@gmail.com" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="phone"><strong>Phone (Mobile):</strong></label></td>
+                                    <td><input type="tel" id="phone" name="phone" value="880-01518XXXXXXXX" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="website"><strong>Website:</strong></label></td>
+                                    <td><input type="url" id="website" name="website" value="https://kawur.me" /></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="address"><strong>Present Address:</strong></label></td>
+                                    <td><input type="text" id="address" name="address" value="403/1, Kuratoli Khilkhet, Dhaka 1229, Bangladesh" /></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" />
+            <!--<td style="vertical-align: center;">
+            <div class="submit-button-container">
+              <input type="submit" value="Submit" style="display: block; margin: 0 auto;" />
+            </div>
+          </td>-->
+        </fieldset>
+    </form>
+</body>
+</html>
